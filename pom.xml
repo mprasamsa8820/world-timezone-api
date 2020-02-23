@@ -30,7 +30,7 @@
 					<username>mpri</username>
 					<password>123Mule123</password>
 					<applicationName>worldTimezone-Service</applicationName>
-      				<environment>DEV</environment>
+      				<environment>Dev</environment>
       				<muleVersion>4.2.1</muleVersion>
       				<workers>1</workers>
       				<workerType>Micro</workerType>
