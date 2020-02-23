@@ -18,8 +18,6 @@
 		<mule.maven.plugin.version>3.2.7</mule.maven.plugin.version>
 	</properties>
 
-
-
 	<build>
 		<plugins>
 			<plugin>
@@ -28,6 +26,15 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				<cloudHubDeployment>
+					<username>mpri</username>
+					<password>123Mule123</password>
+					<applicationName>worldTimezone-Service</applicationName>
+      				<environment>Dev</environment>
+      				<muleVersion>4.2.1</muleVersion>
+      				<workers>1</workers>
+      				<workerType>Micro</workerType>
+				</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
